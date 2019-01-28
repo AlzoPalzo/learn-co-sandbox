@@ -1,6 +1,5 @@
-function sayHelloTo(name)
+function say(greeting, firstName) 
 {
-  console.log(`Hello, ${name}!`)
+  return `${greeting}, ${firstName}!`
 }
-
-sayHelloTo('Ali')
+say("Hello", "Ali")
