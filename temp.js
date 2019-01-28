@@ -3,4 +3,4 @@ function sayHelloTo(name)
   console.log(`Hello, ${name})
 }
 
-sayHello()
+sayHelloTo(Ali)
